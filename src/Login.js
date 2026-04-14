@@ -8,7 +8,7 @@ function Login({ setLoggedIn }) {
   const handleLogin = async () => {
     try {
       const res = await axios.post(
-        "http://127.0.0.1:8000/api-token-auth/",
+        "https://crowd-trust-backend.onrender.com/api-token-auth/",
         {
           username,
           password,
